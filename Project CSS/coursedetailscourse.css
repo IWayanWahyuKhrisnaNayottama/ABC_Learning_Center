@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+ 
+  .coursedetailschildcourse-details{
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  .coursedetailschildcourse-details h1{
+    font-size: 42px;
+    margin-top: 50px;
+    text-align: left;
+    font-family:'Roboto';
+    color: #24262b;
+  }
+
+  .coursedetailschildcourse-details p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #3B3F47;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .coursedetailschildpicture-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+  .coursedetailschildpicture-row img {
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .coursedetailschildcourse-objective {
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .coursedetailschildobjective-paragraph {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+  .coursedetailschildsub-title{
+    color: #24262b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .coursedetailschildcourse-outline {
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .coursedetailschildoutline-list {
+    list-style-type: decimal;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  .coursedetailschildoutline-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .coursedetailschildbutton-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .coursedetailschildoutline li{
+    margin-top: 10px;
+    color: #24262b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .coursedetailschildbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #24262b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .coursedetailschildbutton:hover {
+    background-color: #3B3F47;
+    cursor: pointer;
+  }
+  

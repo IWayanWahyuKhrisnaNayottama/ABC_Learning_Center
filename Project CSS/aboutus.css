@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* ABOUT US START */
+.about-section {
+    padding:30px 0;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1265px;
+  }
+  .aboutsection-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #3B3F47;
+    text-align: left;
+  }
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .about-text {
+    flex-basis: 100%;
+    text-align: left;
+    max-width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  .about-subtitle {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    color: #24262b;
+  }
+  .about-intro {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #3B3F47;
+  }
+  .about-img {
+    flex-basis: 100%;
+    text-align: left;
+  }
+  .about-img img {
+    width: 80%;
+    height: auto;
+    margin: 0 0 20px -10px;
+  }
+  @media screen and (min-width: 768px) {
+    .about-content {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+    .about-text {
+      flex-basis: 70%;
+      max-width: 70%;
+    }
+    .about-img {
+      flex-basis: 100%;
+    }
+    .about-img img {
+      margin: 0;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .about-content {
+      max-width: 95%;
+    }
+    .about-text {
+      flex-basis: 50%;
+      max-width: 100%;
+    }
+    .about-img {
+      flex-basis: 40%;
+    }
+    .about-img img {
+      margin: 0px 0px 0px 81px;
+    }
+  } 
+/* ABOUT US END */
+
+/* MISSION AND GOAL START */
+.missionandgoalcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1265px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .missionandgoalmission,
+  .missionandgoalgoal {
+    width: 33.8%;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 90px;
+  }
+  .missionandgoalmission h2,
+  .missionandgoalgoal h2 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    color: #24262b;
+  }
+  .missionandgoalmission p,
+  .missionandgoalgoal p {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    text-align: justify;
+    color: #3B3F47;
+  }
+  .missionandgoalimage {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .missionandgoalobjective-title {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -35px;
+    position: absolute;
+    top: 0;
+    color: #3B3F47;
+  }
+  .missionandgoalimg {
+    width: 90%;
+  }
+  .missionandgoalimage-line {
+    position: absolute;
+    bottom: 0;
+    width: 280%;
+    border-top: 2px #3B3F47;
+    margin-bottom: -40px;
+  }
+  @media (max-width: 768px) {
+    .missionandgoalcontainer {
+      flex-direction: column;
+    }
+    .missionandgoalmission,
+    .missionandgoalgoal {
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+      margin-bottom: 50px;
+    }
+    .missionandgoalimage {
+      width: 50%;
+    }
+    .missionandgoalimage-line {
+        position: absolute;
+        bottom: -200px;
+        left: -90%;
+        width: 280%;
+        border-top: 1px  #3B3F47;
+      }
+    }
+/* MISSION AND GOAL END */
+
+/* HISTORY START */
+.storycontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1265px;
+    margin-top: 77px;
+    margin-bottom: 50px;
+  }
+  .storyimage {
+    width: 100%;
+    height: 750px;
+    background-image: url("Project JS/Project Images/aboutus.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .storytitle {
+    margin-top: 15px;
+    text-align: center;
+    color: #3B3F47;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .storytitle h2 {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: #24262b;
+  }
+  .storysubtitle {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #3B3F47;
+  }
+  .storyparagraph {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -20px;
+    text-align: justify;
+    color: #3B3F47;
+    padding: 50px;
+  }
+  .aboutusnext-button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #24262b;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+  }  
+  .aboutusnext-button:hover {
+    background-color: #3B3F47;
+  }
+/* HISTORY END */
+  

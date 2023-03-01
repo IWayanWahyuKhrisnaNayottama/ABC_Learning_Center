@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('Project JS/Project Images/homebackground.png') no-repeat center center;
+    background-size: 100%;
+    background-position: center;
+  }
+  
+  .homecontainer {
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;  
+  }
+  
+  .homecontent {
+    text-align: left;
+    max-width: 480px;
+    margin-bottom: 50px;
+  }
+  
+  h1 {
+    font-family: 'Roboto';
+    color: #24262b;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3B3F47;
+    margin-bottom: 20px;
+  }
+  
+  .homebtn {
+    font-family: 'Gill Sans', sans-serif;
+    display: inline-block;
+    background: #3B3F47;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .homebtn:hover {
+    transform: scale(1.1);
+  }
+  
+  @media screen and (max-width: 768px) {
+    main {
+      height: auto;
+      background-size: cover;
+    }
+    
+    .homecontainer {
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+    }
+    
+    p {
+      font-size: 1rem;
+    }
+    
+    .homebtn {
+      font-size: 1rem;
+      padding: 10px 15px;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    main {
+      height: 70vh;
+    }
+    
+    .homecontainer {
+      padding: 50px 80px 0px 80px;
+    }
+    
+    h1 {
+      font-size: 2rem;
+    }
+    
+    p {
+      font-size: 1.2rem;
+    }
+    
+    .homebtn {
+      font-size: 1.2rem;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media screen and (min-width: 1025px) {
+    main {
+      height: 105vh;
+    }
+    
+    .homecontainer {
+      padding: 80px 125px 0px 80px;
+    }
+    
+    h1 {
+      font-size: 2.9rem;
+    }
+    
+    p {
+      font-size: 1.2rem;
+    }
+    
+    .homebtn {
+      font-size: 1.2rem;
+      padding: 10px 20px;
+    }
+  }
+  
